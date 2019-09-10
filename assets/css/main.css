@@ -1687,8 +1687,13 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.logo-text-x {
+		margin-left: -7px;
+	}
+
 	.logo-group {
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.wide {
@@ -1706,5 +1711,9 @@ input, select, textarea {
 	}
 
 	.logo-margin {
-		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.logo-margin-x {
+		margin-right: 25px;
 	}
