@@ -1159,7 +1159,7 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background: linear-gradient(-45deg, #372aeb, #3d80e4, #23a6d5, #23d5ab);
 			background-size: 400% 400%;
-			animation: gradientBG 15s ease infinite;
+			animation: gradientBG 5s ease infinite;
 			z-index: 1;
 		}
 
