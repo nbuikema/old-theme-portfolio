@@ -1728,8 +1728,6 @@ input, select, textarea {
 
 	#header nav ul {
 		border: none;
-		border-radius: 0;
-		border-bottom: solid 1px #ffffff;
 	}
 
 	#header nav ul li {
@@ -1739,4 +1737,15 @@ input, select, textarea {
 	#header nav.use-middle:after {
 		content: none;
 		display: none;
+	}
+
+	@media screen and (max-width: 480px) {
+		#header nav ul li {
+			border-top: none;
+		}
+	}
+
+	#header nav ul li a:hover {
+		background: transparent;
+		border-bottom: 1px solid #ffffff;
 	}
