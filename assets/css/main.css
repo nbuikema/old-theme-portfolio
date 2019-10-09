@@ -1788,3 +1788,13 @@ input, select, textarea {
 		background-color: rgba(27, 31, 34, 0.85);
 		color: #ffffff;
 	}
+
+	@media screen and (max-width: 736px) {
+		#header {
+			margin-bottom: -30px;
+		}
+
+		#footer {
+			margin-bottom: 70px;
+		}
+	}
