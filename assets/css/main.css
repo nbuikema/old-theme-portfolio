@@ -1206,6 +1206,7 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
+		max-height: 100vh!important;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
