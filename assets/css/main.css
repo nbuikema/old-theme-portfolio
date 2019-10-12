@@ -2709,7 +2709,7 @@ input, select, textarea {
   		margin: 0 auto;
 		transform: rotate(180deg);
 		opacity: 0;
-		animation: 5s ease-out 0s 1 persistRocket forwards;
+		animation: 0s ease-out 5s 1 persistRocket forwards;
 	}
 
 		.fuselage {
@@ -2899,9 +2899,6 @@ input, select, textarea {
 
 		@keyframes persistRocket {
 			0% {
-				opacity: 0;
-			}
-			99% {
 				opacity: 0;
 			}
 			100% {
