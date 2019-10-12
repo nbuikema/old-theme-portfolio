@@ -2692,12 +2692,12 @@ input, select, textarea {
 
 	.rocket {
   		position: fixed;
-  		top: 50%;
+  		bottom: 0;
   		right: 0;
   		width: 50px;
   		margin: 0 auto;
-  		transition: transform .2s ease-in-out;
-  		transform: rotate(180deg)
+		transform: rotate(180deg);
+		animation: 3s ease-out 0s 1 flyIn;
 	}
 
 		.fuselage {
@@ -2871,5 +2871,16 @@ input, select, textarea {
 			100% {
 				width: 40px;
 				height: 40px;
+			}
+		}
+
+		@keyframes flyIn {
+			0% {
+				opacity: 0;
+			  	transform: translateY(-300%) rotate(180deg);
+			}
+			100% {
+				opacity: 1;
+			  	transform: translateY(0) rotate(180deg);
 			}
 		}
