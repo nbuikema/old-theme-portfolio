@@ -2627,6 +2627,7 @@ input, select, textarea {
 
 	.devicon {
 		font-size: 3.5em;
+		color: white;
 	}
 
 	#stars {
