@@ -195,7 +195,13 @@ window.onload = function() {
 
 $('document').ready(function() {
 	var contentHeight = document.body.clientHeight;
-	console.log(contentHeight);
+	$("#background").height(contentHeight);
+	$("#midground").height(contentHeight);
+	$("#foreground").height(contentHeight);
+});
+
+$(window).resize(function() {
+	var contentHeight = document.body.clientHeight;
 	$("#background").height(contentHeight);
 	$("#midground").height(contentHeight);
 	$("#foreground").height(contentHeight);
