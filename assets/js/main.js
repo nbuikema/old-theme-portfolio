@@ -194,7 +194,7 @@ window.onload = function() {
 };
 
 $('document').ready(function() {
-	var contentHeight = $("#main").height();
+	var contentHeight = window.innerHeight;
 	$("#background").height(contentHeight);
 	$("#midground").height(contentHeight);
 	$("#foreground").height(contentHeight);
