@@ -2627,7 +2627,7 @@ input, select, textarea {
 
 	#background {
 		background: url(../imgs/background.png) repeat 5% 5%;
-		position: absolute;
+		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		z-index: -1;
 		
@@ -2639,7 +2639,7 @@ input, select, textarea {
 	
 	#midground {
 		background: url(../imgs/midground.png) repeat 20% 20%;
-		position: absolute;
+		position: fixed;
 		z-index: -1;
 		
 		animation-name: stars;
@@ -2650,7 +2650,7 @@ input, select, textarea {
 	
 	#foreground {
 		background: url(../imgs/foreground.png) repeat 35% 35%;
-		position: absolute;
+		position: fixed;
 		top: 0; left: 0; right: 0; bottom: 0;
 		z-index: -1;
 		
