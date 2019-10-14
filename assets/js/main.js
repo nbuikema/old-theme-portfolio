@@ -192,3 +192,10 @@ window.onload = function() {
 	css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; animation: blinkTextCursor 500ms steps(1000) infinite normal; }";
 	document.body.appendChild(css);
 };
+
+$('document').ready(function() {
+	var contentHeight = $("#main").height();
+	$("#background").height(contentHeight);
+	$("#midground").height(contentHeight);
+	$("#foreground").height(contentHeight);
+});
