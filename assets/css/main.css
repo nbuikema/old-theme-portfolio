@@ -2915,3 +2915,8 @@ input, select, textarea {
 	.rotated {
 		transform: rotate(0deg);
 	}
+
+	@keyframes blinkTextCursor{
+		from { border-right-color: rgba(255,255,255,.75); }
+		to { border-right-color: transparent; }
+	}
