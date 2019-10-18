@@ -1945,20 +1945,18 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;
-		color: #fff !important;
+		color: #000 !important;
 		text-decoration: none;
-		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
-		border: 0;
+		padding: 0.75em 1.25em 0.75em 1.25em;
 		cursor: pointer;
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		-moz-transition: background-color 0.35s ease-in-out;
-		-webkit-transition: background-color 0.35s ease-in-out;
-		-ms-transition: background-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out;
+		border: 0;
+		background: linear-gradient(to left, red, yellow), #fff;
+		background-size: 0% 100%;
+		background-position: left;
+		background-repeat: no-repeat;
+		font-size: 1.3em;
+		font-weight: 500;
+		transition: 1s;
 	}
 
 		input[type="button"]:hover,
@@ -1966,7 +1964,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-size: 100% 100%;
 		}
 
 		input[type="button"]:active,
@@ -1974,7 +1972,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-size: 100% 100%;
 		}
 
 /* Item */
@@ -2169,7 +2167,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #fff;
 					}
 
 /* Footer */
